@@ -1,0 +1,61 @@
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  .passwordContainer {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    background-color: blueviolet;
+    border-radius: 50px;
+    .heading {
+      font-size: 30px;
+      color: #fff;
+      background-color: blueviolet;
+    }
+    .inputField {
+        display: flex;
+        gap: 10px;
+      .passwordShow {
+        padding: 10px;
+        font-size: 30px;
+        border: 1px #fff solid;
+      }
+      button{
+        padding: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: #212121;
+        border: none;
+      }
+    }
+    .choosingArea{
+        display: flex;
+        gap:25px;
+        .length{
+            display: flex;
+            gap: 10px;
+            .range{
+                cursor: pointer;
+            }
+        }
+
+        .number{
+            display: flex;
+            gap: 10px;
+        }
+        .character{
+            display: flex;
+            gap: 10px;
+        }
+    }
+  }
+}
